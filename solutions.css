@@ -70,3 +70,13 @@ transition: background-color 2s ;
     filter: sepia(0.7) opacity(0.9);
     border-radius: 25px;
     }
+  /*Esercizio 9*/
+
+  .ex-9-img{ 
+    transition: all 2s;
+    }
+  .ex-9-img:hover{
+    filter: sepia(0.8) opacity(0.9);
+    border-radius: 25px;
+    scale: 1.5;
+    }
