@@ -25,3 +25,12 @@ transition: background-color 2s ;
     border-radius: 50%;
   }
 
+  /*Esercizio 4*/
+
+.ex-4-square{
+  transition: background-color 1s;
+  }
+  .ex-4-square:hover{
+    background-color:rgba(0, 0, 0, 0)
+  }
+
