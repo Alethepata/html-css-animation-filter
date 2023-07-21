@@ -80,3 +80,17 @@ transition: background-color 2s ;
     border-radius: 25px;
     scale: 1.5;
     }
+    
+  /*Esercizio 10*/
+
+  .ex-10-icon{
+    animation:spin 1s linear infinite;
+  
+ 
+  }
+   @keyframes spin{
+
+     100% {
+       transform: rotate(410deg);
+      }
+    }
