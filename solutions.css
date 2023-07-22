@@ -94,3 +94,22 @@ transition: background-color 2s ;
        transform: rotate(410deg);
       }
     }
+    
+  /*Esercizio 11*/
+
+  .ex-11-icon:hover{
+    animation:spin-due 5s 
+
+  }
+   @keyframes spin-due{
+
+     0% {
+       transform: rotate(0deg);
+      }
+     95% {
+       transform: rotate(300deg);
+      }
+     100% {
+       transform: rotate(0deg);
+      }
+    }
